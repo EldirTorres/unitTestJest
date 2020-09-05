@@ -1,0 +1,24 @@
+{
+  "name": "practica-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eldir Torres",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server.js"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
